@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="restAssuredPKG.LearnApiTest">
+        <methods>
+          <include name="verifyNode"/>
+          <include name="getAllInfoInBody"/>
+          <include name="printAllHeader"/>
+          <include name="verifyHeader"/>
+          <include name="verfiyBody"/>
+          <include name="verfiyStatusCode"/>
+          <include name="post_WeatherAPI"/>
+        </methods>
+      </class> <!-- restAssuredPKG.LearnApiTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

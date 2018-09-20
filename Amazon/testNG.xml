@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon" guice-stage="DEVELOPMENT" parallel="tests" thread-count="2" >
+	<test thread-count="1" name="test_loginFunc" verbose="2">
+		<groups>
+
+			<run>
+				<include name="grp1" />
+				
+			</run>
+			
+
+		</groups>
+		<classes>
+			<class name="test.Test_LoginFunc" />
+		</classes>
+	</test> <!-- Default test -->
+	<test thread-count="1" name="test_loginFunc2" verbose="2">
+		<groups>
+
+			<run>
+				<include name="grp2" />
+				
+			</run>
+			
+
+		</groups>
+		<classes>
+			<class name="test.Test_LoginFunc" />
+		</classes>
+	</test> 
+</suite> <!-- Default suite -->
+            

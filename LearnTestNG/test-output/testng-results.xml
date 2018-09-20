@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-08-09T08:40:17Z" name="Default suite" finished-at="2018-08-09T08:40:17Z" duration-ms="22">
+    <groups>
+      <group name="z">
+        <method signature="TestNGClass1.TestNGClass1_method1()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" name="TestNGClass1_method1" class="mytestNGClass.TestNGClass1"/>
+      </group> <!-- z -->
+    </groups>
+    <test started-at="2018-08-09T08:40:17Z" name="Default test" finished-at="2018-08-09T08:40:17Z" duration-ms="22">
+      <class name="mytestNGClass.TestNGClass1">
+        <test-method is-config="true" signature="beforeSuitemethod()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" started-at="2018-08-09T08:40:17Z" name="beforeSuitemethod" finished-at="2018-08-09T08:40:17Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuitemethod -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" started-at="2018-08-09T08:40:17Z" name="beforetest" finished-at="2018-08-09T08:40:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclassMethod()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" started-at="2018-08-09T08:40:17Z" name="beforeclassMethod" finished-at="2018-08-09T08:40:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclassMethod -->
+        <test-method signature="TestNGClass1_method1()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" started-at="2018-08-09T08:40:17Z" name="TestNGClass1_method1" finished-at="2018-08-09T08:40:17Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNGClass1_method1 -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" started-at="2018-08-09T08:40:17Z" name="beforemethod" finished-at="2018-08-09T08:40:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" started-at="2018-08-09T08:40:17Z" name="beforemethod" finished-at="2018-08-09T08:40:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" started-at="2018-08-09T08:40:17Z" name="aftermethod" finished-at="2018-08-09T08:40:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="TestNGClass1_method2()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" started-at="2018-08-09T08:40:17Z" name="TestNGClass1_method2" finished-at="2018-08-09T08:40:17Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNGClass1_method2 -->
+        <test-method is-config="true" signature="afterclassMethod()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" started-at="2018-08-09T08:40:17Z" name="afterclassMethod" finished-at="2018-08-09T08:40:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclassMethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" started-at="2018-08-09T08:40:17Z" name="aftermethod" finished-at="2018-08-09T08:40:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" started-at="2018-08-09T08:40:17Z" name="aftertest" finished-at="2018-08-09T08:40:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="aftyerSuitemethod()[pri:0, instance:mytestNGClass.TestNGClass1@5fbe4146]" started-at="2018-08-09T08:40:17Z" name="aftyerSuitemethod" finished-at="2018-08-09T08:40:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftyerSuitemethod -->
+      </class> <!-- mytestNGClass.TestNGClass1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

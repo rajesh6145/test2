@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Failed suite [Amazon]]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="test_loginFunc(failed)(failed)">
+    <groups>
+      <run>
+        <include name="grp1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.Test_LoginFunc">
+        <methods>
+          <include name="test_loginWith_InvalidEmail_BlankPass"/>
+        </methods>
+      </class> <!-- test.Test_LoginFunc -->
+    </classes>
+  </test> <!-- test_loginFunc(failed)(failed) -->
+  <test thread-count="2" parallel="tests" name="test_loginFunc2(failed)(failed)">
+    <groups>
+      <run>
+        <include name="grp2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.Test_LoginFunc">
+        <methods>
+          <include name="test_fetchPrice"/>
+          <include name="test_loginWith_validEmail_WrongPass"/>
+          <include name="test_loginWith_BlankUID_BlankPass"/>
+        </methods>
+      </class> <!-- test.Test_LoginFunc -->
+    </classes>
+  </test> <!-- test_loginFunc2(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Amazon]] -->
